@@ -6,12 +6,12 @@ public class InformacoesEmpresa {
     public static InformacoesEmpresa getInstance() {
         return instance;
     }
-    private String nomeEmpresa;
-    public String getNomeEmpresa() {
-        return nomeEmpresa;
-    }
+    private float percentualAumentoPresencial;
 
-    public void setNomeEmpresa(String nomeEmpresa) {
-        this.nomeEmpresa = nomeEmpresa;
+    public float getPercentualAumentoPresencial() {
+        return percentualAumentoPresencial;
+    }
+    public void setPercentualAumentoPresencial(float percentualAumentoPresencial) {
+        this.percentualAumentoPresencial = percentualAumentoPresencial;
     }
 }
