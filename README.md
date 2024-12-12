@@ -6,5 +6,6 @@ Este é um sistema de Ordem de Serviço que implementa três padrões de projeto
 
 ## Diagrama de Classes
 
+![Diagrama de Classes](DiagramaClasses.png)
 
 ---
